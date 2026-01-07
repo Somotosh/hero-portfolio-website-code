@@ -59,7 +59,7 @@
 header {
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position:38px 38px, right bottom;
+    background-position: 38px 38px, right bottom;
     background-repeat: no-repeat;
     padding-top: 90px;
 }
@@ -126,14 +126,15 @@ nav .menu a {
     max-width: 585px;
     vertical-align: middle;
 }
-#banner .banner-content .btns{
-     background:none;
+
+#banner .banner-content .btns {
+    background: none;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
-    color:#FD6E0A;
+    color: #FD6E0A;
     cursor: pointer;
 }
 
@@ -300,12 +301,10 @@ footer ine.footer-contar .icons a {
     margin-right: 24px
 }
 
-footer .footer-container form input[type="text"] ,
-footer .footer-container form textarea ,
-footer .footer-container form input[type="email"]
-
-{
-    width:461px;
+footer .footer-container form input[type="text"],
+footer .footer-container form textarea,
+footer .footer-container form input[type="email"] {
+    width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
     border: none;
