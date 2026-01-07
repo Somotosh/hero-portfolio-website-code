@@ -126,6 +126,18 @@ nav .menu a {
     max-width: 585px;
     vertical-align: middle;
 }
+#banner .banner-content .btns{
+     background:none;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FD6E0A;
+    cursor: pointer;
+}
+
+
 
 #about,
 #skills,
