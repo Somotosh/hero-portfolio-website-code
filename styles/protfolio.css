@@ -1,24 +1,27 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared style */
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto
 }
-.logo h2{
-    font-size:45px;
-    font-weight:900;
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
 }
+
 .collor-orange {
     color: #FD6E0A;
 }
-.btn{
+
+.btn {
     background: #FD6E0A;
-    border:none;
+    border: none;
     border-radius: 5px;
     padding: 18px 35px;
     font-size: 20px;
@@ -26,198 +29,274 @@
     color: white;
     cursor: pointer;
 }
-.section-heading{
+
+.section-heading {
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
 }
-.section-heading h2{
-    font-size:35px;
+
+.section-heading h2 {
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.section-heading p{
+
+.section-heading p {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
 }
 
-  
- /* main style */
-
-header{
-    background-color: #FFF8F3;
-    background: url(../images/developer.png), url(../images/header_bg.png) , #FFF8F3;
-    background-position: top left,bottom right;
-    background-repeat: no-repeat;
-    padding-top :50px;
+.text-center {
+    text-align: center;
 }
-nav{
-    width:715x;
+
+
+/* main style */
+
+header {
+    background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-position:38px 38px, right bottom;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+nav {
+    width: 715x;
     max-width: 1140px;
     margin: 0px auto;
     /* border: 1px solid red;  */
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
     gap: 51px;
     align-items: center;
 }
-nav .menu a{
+
+nav .menu a {
     font-size: 20px;
-    color:#474747;
-    text-decoration:none;
+    color: #474747;
+    text-decoration: none;
 
 }
 
 
 
-#banner{
-   /* border: 1px solid red; */
+#banner {
+    /* border: 1px solid red; */
     margin: 47px 38px 0 230px;
-    display:flex ;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-#banner .banner-content{
+
+#banner .banner-content {
     max-width: 585px;
 }
 
- #banner .banner-content h2{
+#banner .banner-content h2 {
     font-size: 45px;
-    font-weight:600;
+    font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
-#banner .banner-content h1{
+
+#banner .banner-content h1 {
     font-size: 60px;
     font-weight: bold;
     color: #474747;
     margin-bottom: 20px;
 }
-#banner .banner-content p{
+
+#banner .banner-content p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
- #banner .banner-img img{
-    max-width:585px;
+
+#banner .banner-img img {
+    max-width: 585px;
     vertical-align: middle;
 }
-#about ,#skills,#resume{
+
+#about,
+#skills,
+#resume {
     padding-top: 130px;
 }
-#about .about-container{
-   width: 71%;
-   max-width: 1140px;
-   margin: 0 auto;
-   text-align: center;
-   background-color: #FFF8F3;
-   padding: 131px 156px;
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
 }
 
-#about .about-container .about-info{
+#about .about-container .about-info {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info .info-card p{
+.about-info .info-card p {
 
-     font-size: 20px;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
 }
-.about-info .info-card h4{
+
+.about-info .info-card h4 {
     font-size: 20px;
-    line-height:30px;
+    line-height: 30px;
     font-weight: bold;
 }
 
 
-  #skills .skills-container{
+#skills .skills-container {
     width: 71%;
     max-width: 1140px;
-    margin:0 auto;
-  }
-#skills .skills-container .skills-box{
+    margin: 0 auto;
+}
+
+#skills .skills-container .skills-box {
     display: flex;
     gap: 24px;
-    
+
 }
-.skills-box .skills-card{
+
+.skills-box .skills-card {
     padding: 30px;
-   box-shadow: 0 6px 50px 0 #00000028;
+    box-shadow: 0 6px 50px 0 #00000028;
     max-width: 267px;
 
 }
-.skills-card img{
+
+.skills-card img {
     max-width: 44px;
     margin-bottom: 30px;
 
 }
-.skills-card h3{
+
+.skills-card h3 {
     font-size: 20px;
     color: #181818;
     margin-top: 20px;
 
 }
-.skills-card p{
+
+.skills-card p {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
-  
+
 }
-#resume .resume-container{
-    width:71%;
-    max-width:1140ox;
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140ox;
     margin: 113px auto 0;
     display: flex;
     gap: 24px;
 
 }
+
 .resume-container .section-taitle {
     font-size: 30px;
     color: #474747;
     margin-bottom: 30px;
 
 }
-  
-.card-resume{
+
+.card-resume {
     max-width: 558px;
     margin-right: 47px;
 
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 0;
 }
-.card-resume .card-taitle{
-  font-size: 25px;
-  color: #474747;
- margin-bottom: 10px;
-  font-weight:bold;
+
+.card-resume .card-taitle {
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
- .card-resume .card-info{
-  font-size: 25px;
-  color:#757575;
-  font-weight: 600px;
- margin-bottom: 20px;
- 
+.card-resume .card-info {
+    font-size: 25px;
+    color: #757575;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
 }
- .card-resume .card-text{
+
+.card-resume .card-text {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
 
+footer {
+    margin-top: 130px;
+    padding: 130px;
+    background-color: #FFF8F3;
+
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+
+}
+
+footer .footer-container .social {
+    max-width: 562px;
+
+}
+
+footer .footer-container .social p {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
 
 
 
+footer .footer-container h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
 
+footer ine.footer-contar .icons a {
+    margin-right: 24px
+}
+
+footer .footer-container form input[type="text"] ,
+footer .footer-container form textarea ,
+footer .footer-container form input[type="email"]
+
+{
+    width:461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
